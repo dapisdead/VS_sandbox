@@ -175,8 +175,10 @@ void biMax(int a, int b, int c) { // наибольше четное число из трех
 int main() {
 		int a, b, c;
 		cin >> a >> b >> c;
-		//sort3(a,b,c);
-		biMax(a,b,c);
+		sort3(a,b,c);
+		
+		//ТЕст гита
+		//biMax(a,b,c);
 
 		return 0;
 }
